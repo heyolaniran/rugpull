@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className='min-h-screen w-full flex flex-col items-center p-24 justify-between'>
+    <main className='min-h-screen w-full flex flex-col items-center justify-between'>
       <Header />
     </main>
   )

@@ -14,7 +14,7 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-4 container text-white py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-6xl"
+        className="mt-4 text-white py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-6xl"
       >
         Watch over your <br /> contract
         <div className="  text-white text-xl mt-8 items-center flex jutify-center">
@@ -39,7 +39,7 @@ export const LampContainer = ({
   return (
     <div
       className={cn(
-        "relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-slate-950 w-full rounded-md z-0",
+        "relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-slate-950 w-full  z-0",
         className
       )}
     >
